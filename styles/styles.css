@@ -1,0 +1,149 @@
+/* Typography */
+.preset-3-bold {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+}
+
+
+/* Format */
+body {
+    min-height: 100vh;
+    background: #f4d04e;
+    display: grid;
+    place-items: center;
+    font-family: "Figtree", serif;
+}
+
+main {
+    border: 1px solid black;
+    width: 336px;
+    height: 474px;
+    background: white;
+    border-radius: 20px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    filter: drop-shadow(8px 8px);
+}
+
+#top-image {
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+#learning {
+    width: 82px;
+    height: 29px;
+    background: #f4d04e;
+    border-radius: 4px;
+    display: grid;
+    place-items: center;
+}
+
+#publish {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin: 12px 0;
+    color: #111111;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    margin: 0 0 12px 0;
+    cursor: pointer;
+    width: 280px;
+}
+
+h1:hover {
+    color: #f4d04e;
+}
+
+#description {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    color: #6B6B6B;
+    margin: 0 0 24px 0;
+}
+
+#bottom-box {
+    /* border: solid 2px black; */
+    height: 32px;
+    display: flex;
+}
+
+#Greg {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+
+#name {
+    margin: 0;
+    color: #111111;
+    display: grid;
+    align-content: center;
+}
+
+
+
+
+/* NOTES 
+h1 is 32px for font size by default
+h2 is 24px
+h3 is 20.8px
+h4 is 16px
+h5 is 12.8px
+h6 is 11.2px
+
+We can get rid of whitespace with the following:
+Using a flexbox
+whitespace: 0
+For future projects set the margin and padding to 0 in the body
+
+
+
+
+
+
+
+# Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+
+## Colors
+
+- Yellow: hsl(47, 88%, 63%)
+
+- White: hsl(0, 0%, 100%)
+
+- Gray 500: hsl(0, 0%, 42%)
+- Gray 950: hsl(0, 0%, 7%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 16px
+
+### Font
+
+- Family: [Figtree](https://fonts.google.com/specimen/Figtree)
+- Weights: 500, 800
+*/
