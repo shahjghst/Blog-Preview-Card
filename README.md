@@ -1,2 +1,2 @@
 # Blog-Preview-Card
-First project assigned by frontendmentor.io meant to test my html and css skills. Website is just a centered container with a QR code image and two sentences. Link to the site:
+Second project assigned by frontendmentor.io meant to once again test my html and css skills. Website is just a centered container with two pictures, a couple of lines of text and a hover function. Link to the site:
